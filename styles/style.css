@@ -60,6 +60,7 @@
   z-index: 1;
 }
 
+/* Manual coloring the link with custom color*/
 .header__link{
   color: #2F80ED;
 }
@@ -122,6 +123,7 @@
   width: 80%;
 }
 
+/* Manually remove the margin from the third paragraph on the page */
 .two-columns__paragraph:last-of-type{
   margin: 0;
 }
@@ -156,6 +158,7 @@
   font-weight: normal;
 }
 
+/* Styling the tables of the section */
 .table{
   display: flex;
   flex-wrap: wrap;
@@ -247,6 +250,7 @@
   z-index: -2;
 }
 
+/* Dark theme styling for Kaufman section - table style reused from facts and figures section */
 .section-title_theme_dark{
   color: white;
   margin-top: 90px;
@@ -275,7 +279,7 @@
   padding-left: 0;
 }
 
-.table__cell_theme_dark {
+.table__cell_theme_dark{
   width: 200px;
   color: white;
   margin-right: 0;
@@ -340,6 +344,7 @@
   margin-bottom: 0;
 }
 
+/* Style for the links in the footer */
 .footer__columns_links{
   list-style: none;
   padding-left: 0;
@@ -353,6 +358,7 @@
   font-size: 18px;
   font-weight: normal;
 }
+/*end of styling for the links in the footer*/
 
 .footer__column-heading{
   line-height: 30px;
