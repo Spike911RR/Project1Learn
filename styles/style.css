@@ -9,11 +9,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-p,
-h1, h2, h3{
-  margin: 0;
-}
-
 /* Style code for the header part of the page */
 .header {
   display: flex;
@@ -50,7 +45,7 @@ h1, h2, h3{
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   justify-content: center;
   z-index: 1;
 }
@@ -64,6 +59,7 @@ h1, h2, h3{
   font-weight: normal;
   position: absolute;
   z-index: 1;
+  margin: 0;
 }
 
 /* Manual coloring the link with custom color*/
@@ -104,7 +100,6 @@ h1, h2, h3{
   display: flex;
   justify-content: space-between;
   width: 80%;
-  min-width: 784px;
   margin: 0 auto;
 }
 
@@ -127,7 +122,6 @@ h1, h2, h3{
   font-weight: normal;
   font-size: 24px;
   margin: 0 0 30px;
-  width: 80%;
 }
 
 /* Manually remove the margin from the third paragraph on the page */
@@ -183,19 +177,20 @@ h1, h2, h3{
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  margin: 0;
 }
 
 .table__text{
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin-top: 20px;
+  margin: 20px 0 0 0;
 }
 
 /*Style code for the part of the page about the feynman method*/
 
 .feynman{
-  height: 790px;
+  min-height: 790px;
   background-color: #F2F2F2;
   display: flex;
   position: relative;
@@ -228,7 +223,7 @@ h1, h2, h3{
   color: #2F80ED;
   text-decoration: none;
   position: absolute;
-  top: 395px;
+  top: 50%;
   right: 48px;
 }
 
@@ -333,6 +328,7 @@ h1, h2, h3{
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
 }
 
 .footer__list{
