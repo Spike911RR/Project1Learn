@@ -9,6 +9,11 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+p,
+h1, h2, h3{
+  margin: 0;
+}
+
 /* Style code for the header part of the page */
 .header {
   display: flex;
@@ -27,14 +32,15 @@
 .logo{
   width: 154px;
   height: 31px;
-  position: absolute;
   background-size: contain;
   background-position: center;
+  background-repeat: no-repeat;
   z-index: 1;
 }
 
 .logo_place_header{
   background-image: url("/images/logo_place_header.png");
+  position: absolute;
   left: 64px;
   top: 30px;
 }
@@ -63,6 +69,7 @@
 /* Manual coloring the link with custom color*/
 .header__link{
   color: #2F80ED;
+  text-decoration: none;
 }
 
 .header__square-pic{
@@ -269,7 +276,7 @@
 }
 
 .table_theme_dark{
-  margin: 80px auto 90px auto;
+  margin: 0 auto 90px auto;
   padding-left: 0;
 }
 
@@ -306,10 +313,13 @@
   justify-content: space-between;
 }
 
-.footer__column_content_copyright{
-  flex-basis: 711px;
+.footer__column{
   display: flex;
   flex-direction: column;
+}
+
+.footer__column_content_copyright{
+  flex-basis: 711px;
   justify-content: space-between;
 }
 
@@ -317,8 +327,6 @@
   background-image: url("/images/logo_place_footer.png");
   width: 183px;
   height: 35px;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .footer__author{
@@ -335,15 +343,15 @@
 }
 
 /* Style for the links in the footer */
-.footer__columns_links{
+.footer__columns_list{
   list-style: none;
   padding-left: 0;
   margin: 20px 0 16px 0;
 }
 
-.footer__column_link{
-  text-decoration: none;
+.footer__column-link{
   color: #F2F2F2;
+  text-decoration: none;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
