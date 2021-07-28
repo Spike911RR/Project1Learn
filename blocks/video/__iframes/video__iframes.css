@@ -1,0 +1,13 @@
+@import url('/blocks/video/__iframe/video__iframe.css');
+
+.video__iframes{
+  display: flex;
+  justify-content: center;
+  position: static;
+  bottom: -70px;
+  top: 70px;
+  margin-top: 50px;
+  list-style: none;
+  margin-bottom: -50px;
+  padding: 0;
+}
