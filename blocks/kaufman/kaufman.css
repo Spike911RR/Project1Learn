@@ -1,6 +1,6 @@
-@import url('./blocks/table/table.css');
-@import url('./blocks/table/_theme/table_theme_dark.css');
-@import url('./blocks/kaufman/__triangle/kaufman__triangle.css');
+@import url('./table/table.css');
+@import url('./_theme/table_theme_dark.css');
+@import url('./__triangle/kaufman__triangle.css');
 
 .kaufman{
   display: flex;
@@ -9,5 +9,4 @@
   background-color: #1F1F1F;
   overflow: hidden;
   z-index: -2;
-  overflow: hidden;
 }
